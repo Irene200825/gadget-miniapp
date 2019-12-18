@@ -1,0 +1,21 @@
+<view class="body" wx:if="{{!loading}}">
+  <view class="result-box">
+    <canvas canvas-id="resultCanvas" ></canvas>
+  </view>
+
+  <view class="weui-flex btns">
+    <button class="btn" open-type="share">
+      <image mode="widthFix" src="/images/btnShare.jpg"></image>
+    </button>
+    <button class="btn" bindtap="saveResult">
+      <image mode="widthFix" src="/images/btnSave.jpg"></image>
+    </button>
+  </view>
+
+  <view class="weui-flex back">
+    <button class="btn" bindtap="back">
+      <image mode="widthFix" src="/images/back.jpg"></image>
+    </button>
+  </view>
+
+</view>

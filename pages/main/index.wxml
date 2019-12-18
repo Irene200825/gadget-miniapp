@@ -1,0 +1,19 @@
+<view class="weui-cells">
+  <view class="weui-cell">
+    <view class="section-time">
+      <picker mode="date" value="{{time}}" bindchange="bindTimeChange">
+        <view class="weui-flex">
+          <view class="picker">开心就好: </view>
+          <view class="time">{{time}}</view>
+        </view>
+      </picker>
+    </view>
+  </view>
+</view>
+
+<view class="btns">
+  <view class="weui-flex">
+    <button class="btn" bindtap="addTime">开心吗</button>
+    <button class="btn" bindtap="goHistory">不开心</button>
+  </view>
+</view>

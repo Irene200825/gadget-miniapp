@@ -1,0 +1,26 @@
+.body {
+  margin: 0 30rpx;
+}
+
+canvas {
+  width: 750rpx;
+  height: 1004rpx;
+  margin-bottom: 40rpx;
+  font-weight: bold;
+}
+
+.result-btn {
+  margin: 50rpx 0;
+}
+
+.result-btn button {
+  width: 500rpx;
+}
+
+.opt-btn {
+  margin-bottom: 50rpx;
+}
+
+.opt-btn button {
+  width: 300rpx;
+}

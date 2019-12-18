@@ -1,0 +1,3 @@
+<view class="out-turntable">
+  <turntable custom-function="{{customFunction}}" awards="{{foods}}"></turntable>
+</view>

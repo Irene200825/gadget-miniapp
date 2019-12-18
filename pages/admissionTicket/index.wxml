@@ -1,0 +1,51 @@
+<view class="input-box">
+
+  <view class="weui-cells">
+    <view class="weui-cell name">
+      <view class="weui-cell__hd title">姓名：</view>
+      <input class="weui-cell__bd" placeholder="请输入姓名"  bindinput="inputName" maxlength="4" />
+    </view>
+    <view class="weui-cell name">
+      <view class="weui-cell__hd title">高中：</view>
+      <input class="weui-cell__bd" placeholder="请输入高中" bindinput="inputSchoolName" maxlength="20" />
+    </view>
+    <view class="weui-cell sex">
+      <view class="title">性别：</view>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio">
+          <radio value="man" checked="true" />男
+        </label>
+        <label class="radio">
+          <radio value="woman" />女
+        </label>
+      </radio-group>
+    </view>
+  </view>
+
+
+  <view class="weui-flex result-btn">
+    <button hover-class="none" bindtap="getAdmissionTicket">
+      生成准考证
+    </button>
+  </view>
+
+</view>
+
+
+
+
+<view wx:if="{{isShow}}">
+  <view class="result-box">
+    <canvas canvas-id="resultCanvas"></canvas>
+  </view>
+
+  <view class="weui-flex opt-btn">
+    <button open-type="share">
+      分享
+    </button>
+    <button bindtap="saveResult">
+      保存
+    </button>
+  </view>
+</view>
+

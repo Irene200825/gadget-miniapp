@@ -1,0 +1,11 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#d16b3d",
+  "navigationBarTitleText": "看天吃饭",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#fff",
+  "usingComponents": {
+    "turntable": "/components/turntable/index"
+  }
+}

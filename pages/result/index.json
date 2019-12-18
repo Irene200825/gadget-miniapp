@@ -1,0 +1,11 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#7850d7",
+  "navigationBarTitleText": "2019年会发生的事情",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#fff",
+  "usingComponents": {
+
+  }
+}

@@ -1,0 +1,32 @@
+<view class="turntable-box" style="background-image:url({{theme.turntable_img}})">
+  <view class="weui-flex turntable-content">
+    <canvas class="canvas-turntable" canvas-id="canvasTurntable" id="canvasTurntable"></canvas>
+    <image class="turntable-image" src="{{turntableImagePath}}" style="-webkit-transform:rotate({{rotateAngle}}deg);transform:rotate({{rotateAngle}}deg);transition: transform {{rotateTime}}s ease-in-out;-webkit-transition: transform {{rotateTime}}s ease-in-out;"></image>
+  </view>
+  <view class="weui-flex turntable-pointer" bindtap="startRaffle"  style="background-image:url({{theme.pointer_img}})">
+    <view class="weui-flex pointer-content">
+      <view class="big-title">
+        <view>开始</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+<view class="raffle-result-dialog" wx:if="{{isShowResultDialog}}">
+  <view class="raffle-result-dialog-box__mask"></view>
+  <view class="raffle-dialog-box_content consume-point">
+    <view class="content">
+      <view class="tip">今天中午吃{{awards[winningOrder]}}</view>
+      <view class="weui-flex btns">
+        <view class="btn">
+          <button class="red-plain round default" size="mini" bindtap="goBack">更新菜单</button>
+        </view>
+        <view class="btn">
+          <button class="orange-e round default" size="mini" bindtap="closeDialog">再抽一次</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

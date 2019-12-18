@@ -1,0 +1,68 @@
+page {
+  background: url("http://q2hm9j7q7.bkt.clouddn.com/%E8%83%8C%E6%99%AF.png") no-repeat;
+  background-size: 100%;
+}
+
+.year {
+  margin-top: 20px;
+  color: #d85cb0;
+  font-size:180rpx;
+  text-align: center;
+  font-weight: 600;
+}
+
+.number {
+  margin-top: 91rpx;
+  text-align: center;
+}
+
+.number text {
+  padding: 0 10rpx;
+  font-size: 30rpx;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.input-box {
+  margin: 150rpx 100rpx 0 100rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+
+.input-box .name {
+  margin-bottom: 60rpx;
+}
+
+.input-box .name input {
+  padding: 0 10rpx;
+  height: 50rpx;
+  min-height: 50rpx;
+  line-height: 50rpx;
+  border: 1rpx solid #7850d7;
+  background: #fff;
+}
+
+.sex .radio {
+  margin-right: 20rpx;
+}
+
+.btn {
+  width: 390rpx;
+  margin: 50rpx auto;
+}
+
+.btn button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.btn button image {
+  width: 390rpx;
+  height: 120rpx;
+}
+
+button:after {
+  border: none;
+}

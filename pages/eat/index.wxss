@@ -1,0 +1,32 @@
+page {
+  position: relative;
+  height: 100vh;
+  background-color: #fdf7f2;
+}
+
+.weui-cells {
+  margin-top: 0;
+  background-color: #fdf7f2;
+}
+
+.btns {
+  position: fixed;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+button {
+  margin-top: 15px;
+  color: #fff;
+  background-color: #d16b3d;
+}
+
+.btns .btn{
+  flex:1;
+  -webkit-flex: 1;
+}
+
+.btns .btn:first-child{
+  margin-right: 15px;
+}

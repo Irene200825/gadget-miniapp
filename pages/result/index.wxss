@@ -1,0 +1,39 @@
+.body {
+  margin: 30rpx 30rpx 0 30rpx;
+}
+
+canvas {
+  width: 690rpx;
+  height: 1017rpx;
+  margin-bottom: 40rpx;
+}
+
+.btns {
+  margin: 0 20rpx;
+  justify-content: space-between;
+}
+
+.btns .btn {
+  height: 96rpx;
+  padding: 0;
+  margin: 0 0 30rpx 0;
+  background-color: #fff;
+  border: none;
+}
+
+.btns .btn image {
+  width: 289rpx;
+}
+
+.back button {
+  margin-bottom: 20rpx;
+  padding: 0;
+  line-height: 33rpx;
+  border: none;
+}
+button:after{
+  border: none;
+}
+.back image {
+  width: 200rpx;
+}

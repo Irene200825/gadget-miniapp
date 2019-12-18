@@ -1,0 +1,16 @@
+page {
+  position: relative;
+  height: 100vh;
+  background-color: #fdf7f2;
+}
+
+.btns{
+  margin: 0 15px;
+}
+.btns .btn{
+  margin-top: 15px;
+  flex:1;
+  -webkit-flex: 1;
+  color: #fff;
+  background-color: #d16b3d;
+}

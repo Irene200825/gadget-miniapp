@@ -1,0 +1,31 @@
+<view class="year">{{year}}</view>
+
+<view class="number">
+   <text>当前共有{{number}}人在玩</text>
+</view>
+<view class="input-box">
+  
+  <view class="weui-flex name">
+    <view class="title">姓名：</view>
+    <input placeholder="请输入姓名" auto-focus bindinput="inputName" maxlength="4" />
+  </view>
+  <view class="weui-flex sex">
+    <view class="title">性别：</view>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio">
+        <radio value="man" checked="true" color="#ab83e4"/>男
+      </label>
+      <label class="radio">
+        <radio value="woman" checked="true" color="#ab83e4"/>女
+      </label>
+    </radio-group>
+  </view>
+
+
+  <view class="weui-flex btn">
+    <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" hover-class="none">
+      <image mode="widthFix" src="/images/start.png" />
+    </button>
+  </view>
+
+</view>

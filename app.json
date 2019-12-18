@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/main/mainPage/index",
+    "pages/admissionTicket/index",
+    "pages/mainPage/index",
+    "pages/result/index",
+    "pages/eat/index",
+    "pages/eat/lottery",
+    "pages/main/index",
+    "pages/main/menses/history"
+  ],
+  "window": {
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": ""
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx98b9bcbc9161b0ec",
+    "wx32540bd863b27570"
+  ],
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#c04542",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "pagePath": "pages/main/mainPage/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/eat/index",
+        "text": "吃什么"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+<view class="btns">
+    <!-- <button class="btn" bindtap="goPage" data-url="/pages/main/index">开心就好</button> -->
+    <button class="btn" bindtap="goPage" data-url="/pages/admissionTicket/index">准考证</button>
+    <button class="btn" bindtap="goPage" data-url="/pages/mainPage/index">未来</button>
+</view>

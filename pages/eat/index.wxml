@@ -1,0 +1,59 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+  <view class="weui-cells">
+
+    <view class="weui-cell">
+      <view class="weui-cell__hd">菜名1：</view>
+      <input name="food1" placeholder="请输入菜名" maxlength="10" value="{{foods[0]}}"/>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__hd">菜名2：</view>
+      <input name="food2" placeholder="请输入菜名" maxlength="10" value="{{foods[1]}}"/>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__hd">菜名3：</view>
+      <input name="food3" placeholder="请输入菜名" maxlength="10" value="{{foods[2]}}"/>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__hd">菜名4：</view>
+      <input name="food4" placeholder="请输入菜名" maxlength="10" value="{{foods[3]}}"/>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__hd">菜名5：</view>
+      <input name="food5" placeholder="请输入菜名" maxlength="10" value="{{foods[4]}}"/>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__hd">菜名6：</view>
+      <input name="food6" placeholder="请输入菜名" maxlength="10" value="{{foods[5]}}"/>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__hd">菜名7：</view>
+      <input name="food7" placeholder="请输入菜名" maxlength="10" value="{{foods[6]}}"/>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__hd">菜名8：</view>
+      <input name="food8" placeholder="请输入菜名" maxlength="10" value="{{foods[7]}}"/>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__hd">菜名9：</view>
+      <input name="food9" placeholder="请输入菜名" maxlength="10" value="{{foods[8]}}"/>
+    </view>
+  </view>
+
+
+  <view class="btns">
+    <button formType="submit">下一步</button>
+    <view class="weui-flex">
+      <button class="btn" formType="reset">重置</button>
+      <button class="btn" bindtap="getTop">热门</button>
+    </view>
+  </view>
+</form>

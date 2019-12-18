@@ -1,0 +1,15 @@
+page {
+  position: relative;
+  height: 100vh;
+  background-color: #fdf7f2;
+}
+.weui-cells {
+  margin-top:0;
+  background-color: #fdf7f2;
+}
+.no-data {
+  margin-top: 15rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+}

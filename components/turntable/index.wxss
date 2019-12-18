@@ -1,0 +1,294 @@
+@import "/weui/weui.wxss";
+
+/* 转盘 */
+
+.turntable-box {
+  margin: 0 auto;
+  position: relative;
+  width: 640rpx;
+  height: 667rpx;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+.turntable-box .turntable-content {
+  width: 640rpx;
+  height: 640rpx;
+  justify-content: center;
+  align-items: center;
+}
+
+.turntable-content .canvas-turntable {
+  position: fixed;
+  left: -10000rpx;
+  width: 520rpx;
+  height: 520rpx;
+}
+
+.turntable-content .turntable-image {
+  width: 520rpx;
+  height: 520rpx;
+}
+
+.turntable-box .turntable-pointer {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 234rpx;
+  height: 234rpx;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+.turntable-pointer image{
+  width: 234px;
+  height: 234px;
+}
+
+.turntable-pointer .pointer-content {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 137rpx;
+  height: 137rpx;
+  justify-content: center;
+  align-items: center;
+  border-radius: 137rpx;
+}
+
+.turntable-pointer .pointer-content .big-title {
+  padding-left: 8rpx;
+  color: #fb471e;
+  font-size: 48rpx;
+  font-weight: bold;
+  line-height: 44rpx;
+}
+
+.turntable-pointer .pointer-content .small-title {
+  font-weight: bold;
+  color: #fb471e;
+  font-size: 30rpx;
+}
+
+.turntable-pointer .pointer-content .small-title .point {
+  margin: 0 10rpx;
+  height: 32rpx;
+  color: #fff5f0;
+  font-size: 24rpx;
+  font-weight: normal;
+  line-height: 32rpx;
+  border-radius: 32rpx;
+  background-color: #fb471e;
+}
+
+/* 弹窗样式 */
+
+.raffle-result-dialog .raffle-result-dialog-box__mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 26;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.raffle-result-dialog .raffle-dialog-box_content {
+  position: fixed;
+  top: 50%;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 27;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+/* 获奖或者没有获奖 */
+
+.raffle-dialog-box_content.lost {
+  width: 500rpx;
+  height: 600rpx;
+}
+
+.raffle-dialog-box_content.success {
+  width: 580rpx;
+  height: 766rpx;
+}
+
+.raffle-dialog-box_content.success .content image {
+  margin-top: 170rpx;
+  padding: 36rpx;
+  width: 90rpx;
+  height: 90rpx;
+  background-color: #fff;
+  border-radius: 180rpx;
+}
+
+.raffle-dialog-box_content.success .content .level {
+  margin-bottom: 70rpx;
+  color: #fff;
+  font-size: 36rpx;
+}
+
+.raffle-dialog-box_content.success .content .name {
+  margin-bottom: 60rpx;
+  color: #000;
+  font-size: 36rpx;
+}
+.name .award-name{
+  margin: 0 20rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.raffle-dialog-box_content.lost .content .tip {
+  margin: 350rpx 0 45rpx 0;
+  color: #666;
+  font-size: 36rpx;
+}
+
+/* 删除 */
+
+.raffle-dialog-box_content .del-content,
+.raffle-dialog-box_content .close-btn button {
+  position: absolute;
+  top: -87rpx;
+  right: 0;
+  width: 56rpx;
+  height: 56rpx;
+}
+
+.raffle-dialog-box_content.lost .del-content,
+.raffle-dialog-box_content.lost .close-btn button {
+  top: 0;
+  right: 0;
+}
+
+.raffle-dialog-box_content .close-btn button {
+  opacity: 0;
+}
+
+/* 按钮 */
+
+.raffle-dialog-box_content .content .btn {
+  margin: 0 auto;
+  width: 306rpx;
+  height: 66rpx;
+}
+
+.raffle-dialog-box_content .content .btn button {
+  width: 306rpx;
+  height: 66rpx;
+  font-size: 30rpx;
+  line-height: 66rpx;
+}
+
+.raffle-dialog-box_content .content .btns .btn {
+  width: 200rpx;
+  height: 66rpx;
+}
+
+.raffle-dialog-box_content .content .btns .btn button {
+  width: 200rpx;
+  height: 66rpx;
+  font-size: 28rpx;
+  line-height: 64rpx;
+}
+
+/* 积分消耗 */
+
+.raffle-dialog-box_content.consume-point {
+  width: 500rpx;
+  height: 497rpx;
+  background-image: url("http://q2hm9j7q7.bkt.clouddn.com/%E7%A7%AF%E5%88%86%E6%B6%88%E8%80%97.png");
+}
+
+.raffle-dialog-box_content.consume-point .tip {
+  margin: 116rpx 0 170rpx 0;
+  color: #fff;
+  font-size: 32rpx;
+}
+
+.raffle-dialog-box_content.consume-point .tip .text {
+  font-size: 48rpx;
+}
+
+/* 机会用完 */
+
+.raffle-dialog-box_content.no-chance {
+  width: 500rpx;
+  height: 497rpx;
+}
+
+.raffle-dialog-box_content.no-chance .tip {
+  margin-top: 250rpx;
+  margin-bottom: 40rpx;
+  color: #fff;
+  font-size: 34rpx;
+}
+
+.raffle-dialog-box_content.no-chance.point .tip {
+  margin: 116rpx 0 170rpx 0;
+}
+
+.raffle-dialog-box_content.no-chance.share .btn button {
+  color: #fb471e;
+}
+
+/* 可以分享弹窗 */
+
+.raffle-dialog-box_content.share-dialog {
+  padding: 0 45rpx;
+  width: 457rpx;
+  height: 675rpx;
+  /* background-image: url("https://s1.ouyada.com/oyderp-20191205/1K4eUhriEj.png"); */
+}
+
+.raffle-dialog-box_content.share-dialog .title {
+  margin-top: 288rpx;
+  margin-bottom: 35rpx;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.raffle-dialog-box_content.share-dialog .tip {
+  margin-bottom: 64rpx;
+  color: #fff;
+  font-size: 28rpx;
+  text-align: left;
+}
+
+button::after{
+  display: none;
+}
+button.round.default {
+  border-radius: 66rpx;
+}
+button.red-plain.default {
+  color: #f23030;
+  border: 1rpx solid #f23030;
+   background-color: #fff;
+}
+
+button.orange-e.default {
+  color: #fff;
+  background: linear-gradient(to right, #ff543b, #ff854d);
+  border: none;
+}

@@ -1,0 +1,11 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#d16b3d",
+  "navigationBarTitleText": "开心就好",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#fff",
+  "usingComponents": {
+    
+  }
+}
